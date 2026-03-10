@@ -1,5 +1,7 @@
 # Taskbook
 
+![Taskbook 图标](logo.ico)
+
 一个基于 PySide6 的桌面任务管理与日报生成工具，内置单实例守护、托盘支持、任务筛选导出/导入，以及 AI 日报生成。
 
 ## 功能特性
@@ -43,6 +45,7 @@ python -m PyInstaller \
 ```
 产物在 `dist/` 目录。
 
+如需 Inno Setup 安装包，可参考仓库中的 `Taskbook.iss`，图标使用 `image.png`。
 
 ## 目录结构
 ```
@@ -72,3 +75,6 @@ schema.sql          # DB 初始化（随 app/db/schema.sql 打包）
 ## 已知限制
 - 仅测试于 Windows 环境。
 - AI 生成依赖外部接口，请确保可联网且配置正确。
+
+## 许可证
+MIT License
