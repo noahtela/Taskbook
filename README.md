@@ -22,7 +22,7 @@
 
 ## 运行环境
 - Python 3.10+
-- Windows 10/11（托盘和本地通知基于 Windows 环境）
+- Windows 10/11
 
 ## 安装依赖
 ```bash
@@ -43,9 +43,6 @@ python -m PyInstaller \
   --add-data "app/db/schema.sql;app/db" \
   run.py
 ```
-产物在 `dist/` 目录。
-
-如需 Inno Setup 安装包，可参考仓库中的 `Taskbook.iss`，图标使用 `image.png`。
 
 ## 目录结构
 ```
